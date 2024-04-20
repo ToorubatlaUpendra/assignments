@@ -9,6 +9,7 @@ do
 
 done <<< "$file"
 
-echo $usage2 
-# echo $usage
+transposefile="$usage\n$usage2"
+
+echo -e $transposefile
 
