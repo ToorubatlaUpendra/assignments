@@ -9,7 +9,11 @@ do
 
 done <<< "$file"
 
+# Remove leading whitespace
+usage=$(echo "$usage" | sed 's/^[[:space:]]*//')
+usage2=$(echo "$usage2" | sed 's/^[[:space:]]*//')
+
 transposefile="$usage\n$usage2"
 
-echo -e $transposefile
+echo -e $transposefile  
 
