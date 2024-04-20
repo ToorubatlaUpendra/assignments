@@ -7,4 +7,4 @@ do
     usage=$(echo $line | awk '{print$1}')
 done <<< "$file"
 
-echo -e "$usage"
+echo  "$usage"
