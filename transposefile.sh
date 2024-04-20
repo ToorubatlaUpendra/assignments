@@ -9,4 +9,4 @@ do
 
 done <<< "$file"
 
-echo $usage
+echo -e $usage
