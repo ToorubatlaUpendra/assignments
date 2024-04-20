@@ -1,4 +1,4 @@
 #!/bin/bash
 
-file=$(echo "/tmp/file.txt")
+file=$(cat /tmp/file.txt)
 echo "$file"
