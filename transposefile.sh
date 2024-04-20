@@ -9,6 +9,6 @@ do
 
 done <<< "$file"
 
-echo $usage2 >> $usage
+echo "$usage2" >> $usage
 echo $usage
 
