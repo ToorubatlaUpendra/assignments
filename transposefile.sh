@@ -10,4 +10,5 @@ do
 done <<< "$file"
 
 echo $usage2 >> $usage
+echo $usage
 
