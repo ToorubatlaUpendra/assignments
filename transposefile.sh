@@ -19,7 +19,7 @@ echo -e "$transposefile"
 
 # second way
 
-inputfile=$i
+inputfile=$1
 numofcols=$(head -1 "$inputfile" | wc -w)
 for i in (seq 1 $numofcols) done
 echo $(cut -d " " -f"$i" "$inputfile")
